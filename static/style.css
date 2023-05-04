@@ -1,0 +1,21 @@
+body{
+	background-color: #EAEFF2;
+}
+#head{
+	font-family: sans-serif;
+	font-weight:bold ;
+	color: white;
+	border-radius: 4px;
+	/*	padding: 5px;*/
+	padding-left: 10px ;
+	padding-right: 10px ;
+
+}
+
+#head-lg{
+	font-family: sans-serif;
+	font-weight:bold ;
+	color: white;
+	border-radius: 4px;
+	
+}
