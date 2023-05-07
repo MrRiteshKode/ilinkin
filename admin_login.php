@@ -4,7 +4,7 @@ session_start();
 if(!empty($_COOKIE['name'])){
  $_SESSION['name'] = $_COOKIE['name'];
  $_SESSION['passwd'] = $_COOKIE['passwd'];
- if($_SESSION['name'] == "ritesh" && $_SESSION['passwd'] == "ritesh"){
+ if($_SESSION['name'] == "yourname" && $_SESSION['passwd'] == "yourpasswd"){
   header("location: admin.php");
 }
 }
@@ -14,7 +14,7 @@ if(!empty($_COOKIE['name'])){
 if($_SERVER["REQUEST_METHOD"]== "POST"){
   $name = $_POST['name'];
   $password = $_POST['password'];
-  if($name == "ritesh" and $password == "ritesh"){
+  if($name == "yourname" and $password == "yourpasswd"){
     header("location: admin.php?login=success");
     // $Err = "Pk";
     
