@@ -6,7 +6,7 @@ if(isset($_COOKIE['name'])){
  $_SESSION['passwd'] = $_COOKIE['passwd'];
 }
 
-if(!isset($_SESSION['name']) && !isset($_SESSION['passwd'])){
+if(!$_SESSION['name'] == "yourname" && !$_SESSION['passwd'] == "yourpasswd"){
   header("location: admin_login.php");
 }
 
